@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0BDD6A1F4DD01A0076C39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BDD691F4DD01A0076C39C /* AppDelegate.swift */; };
+		BE0BDD6C1F4DD01A0076C39C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BDD6B1F4DD01A0076C39C /* ViewController.swift */; };
+		BE0BDD6F1F4DD01A0076C39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0BDD6D1F4DD01A0076C39C /* Main.storyboard */; };
+		BE0BDD721F4DD01A0076C39C /* Abastece_Ali_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE0BDD701F4DD01A0076C39C /* Abastece_Ali_.xcdatamodeld */; };
+		BE0BDD741F4DD01A0076C39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0BDD731F4DD01A0076C39C /* Assets.xcassets */; };
+		BE0BDD771F4DD01A0076C39C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0BDD751F4DD01A0076C39C /* LaunchScreen.storyboard */; };
+		BE0BDD821F4DD01B0076C39C /* Abastece_Ali_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BDD811F4DD01B0076C39C /* Abastece_Ali_Tests.swift */; };
+		BE0BDD8D1F4DD01B0076C39C /* Abastece_Ali_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BDD8C1F4DD01B0076C39C /* Abastece_Ali_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0BDD7E1F4DD01B0076C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0BDD5E1F4DD01A0076C39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0BDD651F4DD01A0076C39C;
+			remoteInfo = "Abastece Alí";
+		};
+		BE0BDD891F4DD01B0076C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0BDD5E1F4DD01A0076C39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0BDD651F4DD01A0076C39C;
+			remoteInfo = "Abastece Alí";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0BDD661F4DD01A0076C39C /* Abastece Alí.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abastece Alí.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0BDD691F4DD01A0076C39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE0BDD6B1F4DD01A0076C39C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE0BDD6E1F4DD01A0076C39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0BDD711F4DD01A0076C39C /* Abastece_Ali_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Abastece_Ali_.xcdatamodel; sourceTree = "<group>"; };
+		BE0BDD731F4DD01A0076C39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0BDD761F4DD01A0076C39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE0BDD781F4DD01B0076C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0BDD7D1F4DD01B0076C39C /* Abastece AlíTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abastece AlíTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0BDD811F4DD01B0076C39C /* Abastece_Ali_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abastece_Ali_Tests.swift; sourceTree = "<group>"; };
+		BE0BDD831F4DD01B0076C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0BDD881F4DD01B0076C39C /* Abastece AlíUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abastece AlíUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0BDD8C1F4DD01B0076C39C /* Abastece_Ali_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abastece_Ali_UITests.swift; sourceTree = "<group>"; };
+		BE0BDD8E1F4DD01B0076C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0BDD631F4DD01A0076C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0BDD7A1F4DD01B0076C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0BDD851F4DD01B0076C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0BDD5D1F4DD01A0076C39C = {
+			isa = PBXGroup;
+			children = (
+				BE0BDD681F4DD01A0076C39C /* Abastece Alí */,
+				BE0BDD801F4DD01B0076C39C /* Abastece AlíTests */,
+				BE0BDD8B1F4DD01B0076C39C /* Abastece AlíUITests */,
+				BE0BDD671F4DD01A0076C39C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0BDD671F4DD01A0076C39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BDD661F4DD01A0076C39C /* Abastece Alí.app */,
+				BE0BDD7D1F4DD01B0076C39C /* Abastece AlíTests.xctest */,
+				BE0BDD881F4DD01B0076C39C /* Abastece AlíUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0BDD681F4DD01A0076C39C /* Abastece Alí */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BDD691F4DD01A0076C39C /* AppDelegate.swift */,
+				BE0BDD6B1F4DD01A0076C39C /* ViewController.swift */,
+				BE0BDD6D1F4DD01A0076C39C /* Main.storyboard */,
+				BE0BDD731F4DD01A0076C39C /* Assets.xcassets */,
+				BE0BDD751F4DD01A0076C39C /* LaunchScreen.storyboard */,
+				BE0BDD781F4DD01B0076C39C /* Info.plist */,
+				BE0BDD701F4DD01A0076C39C /* Abastece_Ali_.xcdatamodeld */,
+			);
+			path = "Abastece Alí";
+			sourceTree = "<group>";
+		};
+		BE0BDD801F4DD01B0076C39C /* Abastece AlíTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BDD811F4DD01B0076C39C /* Abastece_Ali_Tests.swift */,
+				BE0BDD831F4DD01B0076C39C /* Info.plist */,
+			);
+			path = "Abastece AlíTests";
+			sourceTree = "<group>";
+		};
+		BE0BDD8B1F4DD01B0076C39C /* Abastece AlíUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BDD8C1F4DD01B0076C39C /* Abastece_Ali_UITests.swift */,
+				BE0BDD8E1F4DD01B0076C39C /* Info.plist */,
+			);
+			path = "Abastece AlíUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0BDD651F4DD01A0076C39C /* Abastece Alí */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0BDD911F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece Alí" */;
+			buildPhases = (
+				BE0BDD621F4DD01A0076C39C /* Sources */,
+				BE0BDD631F4DD01A0076C39C /* Frameworks */,
+				BE0BDD641F4DD01A0076C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abastece Alí";
+			productName = "Abastece Alí";
+			productReference = BE0BDD661F4DD01A0076C39C /* Abastece Alí.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0BDD7C1F4DD01B0076C39C /* Abastece AlíTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0BDD941F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece AlíTests" */;
+			buildPhases = (
+				BE0BDD791F4DD01B0076C39C /* Sources */,
+				BE0BDD7A1F4DD01B0076C39C /* Frameworks */,
+				BE0BDD7B1F4DD01B0076C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0BDD7F1F4DD01B0076C39C /* PBXTargetDependency */,
+			);
+			name = "Abastece AlíTests";
+			productName = "Abastece AlíTests";
+			productReference = BE0BDD7D1F4DD01B0076C39C /* Abastece AlíTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE0BDD871F4DD01B0076C39C /* Abastece AlíUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0BDD971F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece AlíUITests" */;
+			buildPhases = (
+				BE0BDD841F4DD01B0076C39C /* Sources */,
+				BE0BDD851F4DD01B0076C39C /* Frameworks */,
+				BE0BDD861F4DD01B0076C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0BDD8A1F4DD01B0076C39C /* PBXTargetDependency */,
+			);
+			name = "Abastece AlíUITests";
+			productName = "Abastece AlíUITests";
+			productReference = BE0BDD881F4DD01B0076C39C /* Abastece AlíUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0BDD5E1F4DD01A0076C39C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LFSantos;
+				TargetAttributes = {
+					BE0BDD651F4DD01A0076C39C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					BE0BDD7C1F4DD01B0076C39C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE0BDD651F4DD01A0076C39C;
+					};
+					BE0BDD871F4DD01B0076C39C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE0BDD651F4DD01A0076C39C;
+					};
+				};
+			};
+			buildConfigurationList = BE0BDD611F4DD01A0076C39C /* Build configuration list for PBXProject "Abastece Alí" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0BDD5D1F4DD01A0076C39C;
+			productRefGroup = BE0BDD671F4DD01A0076C39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0BDD651F4DD01A0076C39C /* Abastece Alí */,
+				BE0BDD7C1F4DD01B0076C39C /* Abastece AlíTests */,
+				BE0BDD871F4DD01B0076C39C /* Abastece AlíUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0BDD641F4DD01A0076C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0BDD771F4DD01A0076C39C /* LaunchScreen.storyboard in Resources */,
+				BE0BDD741F4DD01A0076C39C /* Assets.xcassets in Resources */,
+				BE0BDD6F1F4DD01A0076C39C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0BDD7B1F4DD01B0076C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0BDD861F4DD01B0076C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0BDD621F4DD01A0076C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0BDD6C1F4DD01A0076C39C /* ViewController.swift in Sources */,
+				BE0BDD6A1F4DD01A0076C39C /* AppDelegate.swift in Sources */,
+				BE0BDD721F4DD01A0076C39C /* Abastece_Ali_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0BDD791F4DD01B0076C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0BDD821F4DD01B0076C39C /* Abastece_Ali_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0BDD841F4DD01B0076C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0BDD8D1F4DD01B0076C39C /* Abastece_Ali_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE0BDD7F1F4DD01B0076C39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0BDD651F4DD01A0076C39C /* Abastece Alí */;
+			targetProxy = BE0BDD7E1F4DD01B0076C39C /* PBXContainerItemProxy */;
+		};
+		BE0BDD8A1F4DD01B0076C39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0BDD651F4DD01A0076C39C /* Abastece Alí */;
+			targetProxy = BE0BDD891F4DD01B0076C39C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE0BDD6D1F4DD01A0076C39C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0BDD6E1F4DD01A0076C39C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE0BDD751F4DD01A0076C39C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0BDD761F4DD01A0076C39C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE0BDD8F1F4DD01B0076C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE0BDD901F4DD01B0076C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE0BDD921F4DD01B0076C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abastece Alí/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE0BDD931F4DD01B0076C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abastece Alí/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE0BDD951F4DD01B0076C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abastece AlíTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abastece Alí.app/Abastece Alí";
+			};
+			name = Debug;
+		};
+		BE0BDD961F4DD01B0076C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abastece AlíTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abastece Alí.app/Abastece Alí";
+			};
+			name = Release;
+		};
+		BE0BDD981F4DD01B0076C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Abastece AlíUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Abastece Alí";
+			};
+			name = Debug;
+		};
+		BE0BDD991F4DD01B0076C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Abastece AlíUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Abastece Alí";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0BDD611F4DD01A0076C39C /* Build configuration list for PBXProject "Abastece Alí" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0BDD8F1F4DD01B0076C39C /* Debug */,
+				BE0BDD901F4DD01B0076C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0BDD911F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece Alí" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0BDD921F4DD01B0076C39C /* Debug */,
+				BE0BDD931F4DD01B0076C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE0BDD941F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece AlíTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0BDD951F4DD01B0076C39C /* Debug */,
+				BE0BDD961F4DD01B0076C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE0BDD971F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece AlíUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0BDD981F4DD01B0076C39C /* Debug */,
+				BE0BDD991F4DD01B0076C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE0BDD701F4DD01A0076C39C /* Abastece_Ali_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE0BDD711F4DD01A0076C39C /* Abastece_Ali_.xcdatamodel */,
+			);
+			currentVersion = BE0BDD711F4DD01A0076C39C /* Abastece_Ali_.xcdatamodel */;
+			path = Abastece_Ali_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE0BDD5E1F4DD01A0076C39C /* Project object */;
+}
