@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class File {
+    var userId: String!
+    var id: String!
+    var title: String!
+    var completed: String!
+    
+
+}

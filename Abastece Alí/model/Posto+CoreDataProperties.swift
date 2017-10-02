@@ -21,9 +21,9 @@ extension Posto {
     @NSManaged public var end: String?
     @NSManaged public var bairro: String?
     @NSManaged public var bandeira: String?
-    @NSManaged public var gas: Double
-    @NSManaged public var gnv: Double
-    @NSManaged public var alcool: Double
+    @NSManaged public var gas: String?
+    @NSManaged public var gnv: String?
+    @NSManaged public var alcool: String?
     @NSManaged public var lat: Double
     @NSManaged public var lon: Double
     @NSManaged public var cidade: String?

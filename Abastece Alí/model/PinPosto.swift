@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import MapKit
+class PinPosto: NSObject, MKAnnotation{
+    var id: Int = 22
+    var title: String?
+    var subtitle: String?
+    var coordinate: CLLocationCoordinate2D
+    
+    init(id: Int, title: String, subtitle: String, coordinate: CLLocationCoordinate2D) {
+        self.id = id
+        self.title = title
+        self.subtitle = subtitle
+        self.coordinate = coordinate
+    }
+    
+}

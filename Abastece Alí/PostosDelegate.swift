@@ -7,3 +7,33 @@
 //
 
 import Foundation
+import UIKit
+import MapKit
+import UserNotifications
+
+class PostosDelegate {
+    
+    var contexto: UIViewController
+    
+    
+    init(contexto: UIViewController) {
+        self.contexto = contexto
+    }
+    
+    func salvaPosto(posto: PostoModel){
+            
+            guard let appDelegate = UIApplication
+              .shared.delegate as? AppDelegate else{
+                    return
+            }
+        
+        
+        let managedContext = appDelegate
+            .persistentContainer
+            .viewContext
+        
+        DAO().salvar(contexto: managedContext, posto: posto)
+        
+    }
+    
+}

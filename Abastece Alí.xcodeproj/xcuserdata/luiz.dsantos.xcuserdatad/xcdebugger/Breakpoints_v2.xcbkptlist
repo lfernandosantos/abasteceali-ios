@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Abastece Ali&#x301;/ViewController.swift"
+            timestampString = "525918452.106775"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "requestAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abastece_Ali_.ViewController.requestAPI () -&gt; ()"
+                  moduleName = "Abastece Ali&#x301;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DISK_IMG/IOSProjects/Abastece%20Ali%CC%81/Abastece%20Ali%CC%81/ViewController.swift"
+                  timestampString = "525917671.718725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "647">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abastece_Ali_.ViewController.(requestAPI () -&gt; ()).(closure #1)"
+                  moduleName = "Abastece Ali&#x301;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DISK_IMG/IOSProjects/Abastece%20Ali%CC%81/Abastece%20Ali%CC%81/ViewController.swift"
+                  timestampString = "525917671.721267"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "933">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

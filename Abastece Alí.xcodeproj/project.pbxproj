@@ -15,6 +15,15 @@
 		BE0BDD771F4DD01A0076C39C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0BDD751F4DD01A0076C39C /* LaunchScreen.storyboard */; };
 		BE0BDD821F4DD01B0076C39C /* Abastece_Ali_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BDD811F4DD01B0076C39C /* Abastece_Ali_Tests.swift */; };
 		BE0BDD8D1F4DD01B0076C39C /* Abastece_Ali_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BDD8C1F4DD01B0076C39C /* Abastece_Ali_UITests.swift */; };
+		BE0BDD9C1F4DD1480076C39C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0BDD9B1F4DD1480076C39C /* MapKit.framework */; };
+		BE51888C1F748BA10076D20E /* PinPosto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE51888B1F748BA10076D20E /* PinPosto.swift */; };
+		BEBB1AA01F6606D000103A5C /* PostoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB1A9F1F6606D000103A5C /* PostoModel.swift */; };
+		BEBB1AAC1F6DE97A00103A5C /* Estab+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB1AAA1F6DE97A00103A5C /* Estab+CoreDataClass.swift */; };
+		BEBB1AAD1F6DE97A00103A5C /* Estab+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB1AAB1F6DE97A00103A5C /* Estab+CoreDataProperties.swift */; };
+		BEBB1AB01F6DF13200103A5C /* Posto+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB1AAE1F6DF13200103A5C /* Posto+CoreDataClass.swift */; };
+		BEBB1AB11F6DF13200103A5C /* Posto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB1AAF1F6DF13200103A5C /* Posto+CoreDataProperties.swift */; };
+		BEBB1AB31F6F0DE800103A5C /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB1AB21F6F0DE800103A5C /* Dao.swift */; };
+		BEBB1AB51F6F16BB00103A5C /* PostosDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB1AB41F6F16BB00103A5C /* PostosDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,16 @@
 		BE0BDD881F4DD01B0076C39C /* Abastece AlíUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abastece AlíUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0BDD8C1F4DD01B0076C39C /* Abastece_Ali_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abastece_Ali_UITests.swift; sourceTree = "<group>"; };
 		BE0BDD8E1F4DD01B0076C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0BDD9B1F4DD1480076C39C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BE51888B1F748BA10076D20E /* PinPosto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PinPosto.swift; path = model/PinPosto.swift; sourceTree = "<group>"; };
+		BEBB1A9F1F6606D000103A5C /* PostoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostoModel.swift; path = ../../RequestTeste/RequestTeste/PostoModel.swift; sourceTree = "<group>"; };
+		BEBB1AA11F6B396100103A5C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		BEBB1AAA1F6DE97A00103A5C /* Estab+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Estab+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BEBB1AAB1F6DE97A00103A5C /* Estab+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Estab+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BEBB1AAE1F6DF13200103A5C /* Posto+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Posto+CoreDataClass.swift"; path = "model/Posto+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BEBB1AAF1F6DF13200103A5C /* Posto+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Posto+CoreDataProperties.swift"; path = "model/Posto+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BEBB1AB21F6F0DE800103A5C /* Dao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dao.swift; path = model/Dao.swift; sourceTree = "<group>"; };
+		BEBB1AB41F6F16BB00103A5C /* PostosDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostosDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0BDD9C1F4DD1480076C39C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +99,14 @@
 		BE0BDD5D1F4DD01A0076C39C = {
 			isa = PBXGroup;
 			children = (
+				BEBB1AAA1F6DE97A00103A5C /* Estab+CoreDataClass.swift */,
+				BEBB1AAB1F6DE97A00103A5C /* Estab+CoreDataProperties.swift */,
+				BEBB1AA11F6B396100103A5C /* MyPlayground.playground */,
 				BE0BDD681F4DD01A0076C39C /* Abastece Alí */,
 				BE0BDD801F4DD01B0076C39C /* Abastece AlíTests */,
 				BE0BDD8B1F4DD01B0076C39C /* Abastece AlíUITests */,
 				BE0BDD671F4DD01A0076C39C /* Products */,
+				BE0BDD9A1F4DD1480076C39C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,7 @@
 		BE0BDD681F4DD01A0076C39C /* Abastece Alí */ = {
 			isa = PBXGroup;
 			children = (
+				BE91D6EE1F61EBBC00C3ED4C /* model */,
 				BE0BDD691F4DD01A0076C39C /* AppDelegate.swift */,
 				BE0BDD6B1F4DD01A0076C39C /* ViewController.swift */,
 				BE0BDD6D1F4DD01A0076C39C /* Main.storyboard */,
@@ -106,6 +131,7 @@
 				BE0BDD751F4DD01A0076C39C /* LaunchScreen.storyboard */,
 				BE0BDD781F4DD01B0076C39C /* Info.plist */,
 				BE0BDD701F4DD01A0076C39C /* Abastece_Ali_.xcdatamodeld */,
+				BEBB1AB41F6F16BB00103A5C /* PostosDelegate.swift */,
 			);
 			path = "Abastece Alí";
 			sourceTree = "<group>";
@@ -126,6 +152,26 @@
 				BE0BDD8E1F4DD01B0076C39C /* Info.plist */,
 			);
 			path = "Abastece AlíUITests";
+			sourceTree = "<group>";
+		};
+		BE0BDD9A1F4DD1480076C39C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BDD9B1F4DD1480076C39C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE91D6EE1F61EBBC00C3ED4C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BEBB1AAE1F6DF13200103A5C /* Posto+CoreDataClass.swift */,
+				BEBB1AAF1F6DF13200103A5C /* Posto+CoreDataProperties.swift */,
+				BEBB1A9F1F6606D000103A5C /* PostoModel.swift */,
+				BEBB1AB21F6F0DE800103A5C /* Dao.swift */,
+				BE51888B1F748BA10076D20E /* PinPosto.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +242,7 @@
 				TargetAttributes = {
 					BE0BDD651F4DD01A0076C39C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JQ52M4QL3U;
 						ProvisioningStyle = Automatic;
 					};
 					BE0BDD7C1F4DD01B0076C39C = {
@@ -262,9 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBB1AB51F6F16BB00103A5C /* PostosDelegate.swift in Sources */,
+				BEBB1AB01F6DF13200103A5C /* Posto+CoreDataClass.swift in Sources */,
+				BE51888C1F748BA10076D20E /* PinPosto.swift in Sources */,
+				BEBB1AB11F6DF13200103A5C /* Posto+CoreDataProperties.swift in Sources */,
 				BE0BDD6C1F4DD01A0076C39C /* ViewController.swift in Sources */,
+				BEBB1AAD1F6DE97A00103A5C /* Estab+CoreDataProperties.swift in Sources */,
 				BE0BDD6A1F4DD01A0076C39C /* AppDelegate.swift in Sources */,
+				BEBB1AB31F6F0DE800103A5C /* Dao.swift in Sources */,
+				BEBB1AAC1F6DE97A00103A5C /* Estab+CoreDataClass.swift in Sources */,
 				BE0BDD721F4DD01A0076C39C /* Abastece_Ali_.xcdatamodeld in Sources */,
+				BEBB1AA01F6606D000103A5C /* PostoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQ52M4QL3U;
 				INFOPLIST_FILE = "Abastece Alí/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-";
@@ -428,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQ52M4QL3U;
 				INFOPLIST_FILE = "Abastece Alí/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lf.Abastece-Ali-";
@@ -509,6 +566,7 @@
 				BE0BDD931F4DD01B0076C39C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0BDD941F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece AlíTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +575,7 @@
 				BE0BDD961F4DD01B0076C39C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0BDD971F4DD01B0076C39C /* Build configuration list for PBXNativeTarget "Abastece AlíUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +584,7 @@
 				BE0BDD991F4DD01B0076C39C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
